@@ -108,18 +108,45 @@ body {
 }
 
 .box1 {
-    width: 15%;
+    width: 20%;
     margin-top: 1rem;
 }
 
+.donna {
+    margin-left: -2rem;
+    height: 15rem;
+}
+
 .box2 {
-    width: 68%;
+    width: 55%;
     margin: 1rem 1% 0 1%;
+}
+
+.donna {
+    background-image: url(./img/img-1.jpg);
+    margin-left: 2px;
+}
+
+.caffe {
+    background-image: url(./img/banner-2.jpg);
+}
+
+.eureka {
+    background-image: url(./img/img-3.jpg);
+}
+
+.donna, .caffe, .eureka {
+    background-position: center;
+    height: 12rem;
+    background-color: grey;
+    background-blend-mode: multiply;
+    border-radius: 3%;
 }
 
 .pièdipagina {
     margin-top: 1rem;
     margin-bottom: 1rem;
+    text-align: center;
 }
 
 .logo {
