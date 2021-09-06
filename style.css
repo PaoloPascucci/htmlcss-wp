@@ -7,6 +7,7 @@
 body {
     width: 70%;
     margin: auto;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .debug .corpo {
@@ -67,6 +68,9 @@ body {
     height: 35rem;
     border-radius: 3%;
     margin-top: 1rem;
+    position: relative;
+    background-color: grey;
+    background-blend-mode: multiply;
 }
 
 .titolo1, .testo1 {
@@ -75,20 +79,24 @@ body {
 }
 
 .titolo1 {
-    position: absolute;
-    float: left;
-    bottom: 152px;
-    font-size: 2.5rem;
     word-wrap: break-word;
-    width: 49%;
+    font-size: 1.7rem;
+    width: 56%;
+    position: absolute;
+    bottom: 100px;
+    left: 16px;
 }
 
 .testo1 {
     position: absolute;
-    float: left;
-    bottom: 122px;
-    font-size: 1.5rem;
-    width: 51%;
+    bottom: 45px;
+    left: 16px;
+    word-wrap: break-word;
+    width: 56%;
+}
+
+.testo1 {
+    font-size: 1rem;
 }
 
 .pippo {
@@ -122,5 +130,8 @@ body {
 .nav {
     margin-left: 2rem;
     text-decoration: none;
-    font-family: Montserrat;
+}
+
+.nav, span {
+    color: grey;
 }
