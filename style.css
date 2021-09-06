@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 70%;
+    margin: auto;
+}
+
+.debug .corpo {
+    height: 750px;
+}
+
+.debug .testa {
+    height: 80px;
+    background-color: #e579e6;
+}
+
+.debug .ciccio {
+    background-color: #e1d67a;
+    height: 300px;
+}
+
+.debug .pippo {
+    height: 100px;
+    background-color: #abcfe7;
+}
+
+.debug .box1 {
+    background-color: #abcfe7;
+    height: 300px;
+}
+
+.debug .box2 {
+    background-color: #abcfe7;
+    height: 300px;
+}
+
+.debug .pièdipagina {
+    height: 80px;
+    background-color: #8801fe;
+}
+
+.debug .contenitore {
+    background-color: #0086ff;
+    height: 334px;
+}
+
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.testa {
+    margin-top: 1.5rem;
+}
+
+.corpo {
+    margin-top: 1rem;
+}
+
+.ciccio {
+    margin-top: 1rem;
+}
+
+.pippo {
+    margin-top: 1rem;
+}
+
+.box1, .box2 {
+    float: left;
+}
+
+.box1 {
+    width: 15%;
+    margin-top: 1rem;
+}
+
+.box2 {
+    width: 68%;
+    margin: 1rem 1% 0 1%;
+}
+
+.pièdipagina {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
