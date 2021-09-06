@@ -88,3 +88,14 @@ body {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
+
+.logo {
+    width: 8rem;
+    margin-left: 2rem;
+}
+
+.nav {
+    margin-left: 2rem;
+    text-decoration: none;
+    font-family: Montserrat;
+}
