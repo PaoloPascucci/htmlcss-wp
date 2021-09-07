@@ -78,17 +78,19 @@ body {
     color: white;
 }
 
+.Grasso {
+    position: absolute;
+}
+
 .titolo1 {
     word-wrap: break-word;
     font-size: 1.7rem;
     width: 56%;
-    position: absolute;
     bottom: 100px;
     left: 16px;
 }
 
 .testo1 {
-    position: absolute;
     bottom: 45px;
     left: 16px;
     word-wrap: break-word;
@@ -137,10 +139,11 @@ body {
 
 .donna, .caffe, .eureka {
     background-position: center;
-    height: 12rem;
+    height: 20rem;
     background-color: grey;
     background-blend-mode: multiply;
-    border-radius: 3%;
+    border-radius: 10px;
+    background-repeat: no-repeat;
 }
 
 .pièdipagina {
